@@ -1,46 +1,33 @@
-# Getting Started with Create React App
+A responsive Weather App application built with React JS, Typescript & API (https://www.weatherapi.com/) to view current weather data, today's weather by the hour, 
+and a weekly forecast. Users can also search for weather information for different locations and view their recent searches. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Home Page
+	Users can search by city, country, or location, by typing search input.
 
-## Available Scripts
+![Screenshot](/public/screenshot.JPG)
 
-In the project directory, you can run:
+![Screenshot](/public/screenshot2.JPG)
 
-### `npm start`
+## Usage
+	Toggle Dark Mode: A button is provided to toggle between light and dark modes.
+	Current Weather: Displays the current weather data based on the user's location.
+	Hourly Forecast: Shows today's weather by the hour.
+	Weekly Forecast: Displays the weather forecast for the week.
+	Search Functionality: Allows users to search for weather data for different locations with a 1 second debounce to optimize search performance.
+	Recent Searches: Keeps track of the user's recent searches and displays them.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Screenshot](/public/screenshot3.JPG)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Instructions on how to start the application.
+	Navigate to the directory where you have downloaded the source code
+	Run npm install command to install all necessary dependencies for the react project 
+	Run npm start to start the application
+	Navigate to localhost:3000 in your web browser if the web application has not automatically been opened
+	To view the current weather data based on your location, you must allow location access in your browser. If location access is denied, the application cannot fetch your current location's weather data.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Tech stack
+	React JS
+    Typescript
+	Axios
+	Tailwindcss
+	Weather API

@@ -8,6 +8,8 @@ and a weekly forecast. Users can also search for weather information for differe
 
 ![Screenshot](/public/screenshot2.JPG)
 
+![Screenshot](/public/screenshot3.JPG)
+
 ## Usage
 	Toggle Dark Mode: A button is provided to toggle between light and dark modes.
 	Current Weather: Displays the current weather data based on the user's location.
@@ -15,8 +17,6 @@ and a weekly forecast. Users can also search for weather information for differe
 	Weekly Forecast: Displays the weather forecast for the week.
 	Search Functionality: Allows users to search for weather data for different locations with a 1 second debounce to optimize search performance.
 	Recent Searches: Keeps track of the user's recent searches and displays them.
-
-![Screenshot](/public/screenshot3.JPG)
 
 ## Instructions on how to start the application.
 	Navigate to the directory where you have downloaded the source code
